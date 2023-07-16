@@ -15,7 +15,7 @@ import React, {useState} from 'react';
     }
     return (
       <div className="container mt-5 bg-info-subtle text-emphasis-secondary">
-        <h2 className="mb-3">Contact Me!</h2>
+        <h2 className="mb-3 text center">Contact Me!</h2>
         <form onSubmit={onSubmit}>
           <div className="mb-3">
             <label className="form-label" htmlFor="name">
@@ -39,7 +39,7 @@ import React, {useState} from 'react';
             {formStatus}
           </button>
         </form>
-      </div>
+        </div>
     )
   };
 

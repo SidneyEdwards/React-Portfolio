@@ -1,11 +1,13 @@
 import React from 'react';
-import profilePic from '../ProfilePickGreyscale.jpg'
+import profilePic from '../../ProfilePickGreyscale.jpg'
+import GithubPic from "../../Github.png"
+import LinkedInPic from "../../LinkedIn.png"
 
 
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Sidney Edwards</h1>
       <p>
       With my background in IT Operations, software troubleshooting, project management, and upcoming certification in Full Stack Web Development, I am now seeking to further my experience as a Junior Developer.
 I have a proven track record of success in collaborating with various levels of IT corporate management. In my current role as an I.T. Operations Buyer at International Paper, I have successfully worked with cross functional IT Teams to source IT business solutions. Additionally, I have worked with major IT vendors, learning their development processes.
@@ -15,6 +17,12 @@ I am confident that my skills, passion for learning, and collaborative mindset m
       </p>
 <div className="head-shot">
 <img src= {profilePic} alt= "Profile" />
+</div>
+<div className="Github">
+<img src= {GithubPic} alt= "Github" />
+</div>
+<div className="LinkedIn">
+<img src= {LinkedInPic} alt= "LinkedIn" />
 </div>
       
     </div>
