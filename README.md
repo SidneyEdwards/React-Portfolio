@@ -6,6 +6,7 @@ This website is designed to allow potential employers to see my most recent work
 
 ## Deployed
 
+https://sidneyedwards.github.io/React-Portfolio/
 
 ## Github Repo
 
