@@ -5,7 +5,7 @@ import "../../styles/Work.css"
 
 export default function MyWork() {
   return (
-  <div class="card">
+  <div class="card mb-1">
       <div class="card-body background-color: #e3f2fd">
         <h1 class="card-title text-center">Recent Work</h1>
       <h5 class="card-text lg text-center">
@@ -24,12 +24,6 @@ export default function MyWork() {
 <div className="QRYou">
 <img src= {QRYouPic} alt= "Project QRYou Screen-Shot" />
 </div>
-<div>
-            Github: https://github.com/SidneyEdwards
-    </div>
-    <div>
-            LinkedIn: www.linkedin.com/in/sidney-edwards-48a0b2173
-    </div>
       </div>
       </div>
 )};
